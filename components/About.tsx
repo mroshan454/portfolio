@@ -14,18 +14,21 @@ const focusAreas = [
         </h2>
   
         <p className="mx-auto mt-6 max-w-2xl text-muted">
-          I&apos;m a self-taught builder who got into AI/ML by taking things
-          apart and rebuilding them from scratch. Rather than stopping at
-          using pretrained models, I&apos;ve implemented transformers, vision
-          models, and RAG pipelines myself to actually understand how they
-          work, and I write about what I learn along the way.
+          I hold a BSc in Computer Science and an MSc in Artificial
+          Intelligence, where I built a foundation in machine learning, deep
+          learning, reinforcement learning, NLP, and data visualization. AI
+          engineering, working hands-on with LLMs, RAG, and agents, is new
+          enough that it isn&apos;t really taught yet, so I&apos;ve been
+          learning it myself by implementing things from scratch: transformers,
+          vision models, and full RAG pipelines, rather than stopping at using
+          pretrained models.
         </p>
         <p className="mx-auto mt-4 max-w-2xl text-muted">
-          On the data side, I work regularly with Python for analysis:
-          pandas, NumPy, and matplotlib for cleaning, exploring, and
-          visualizing data. I&apos;m currently looking for entry-level
-          opportunities, either as an AI/ML engineer or a data analyst,
-          where I can keep building and learning on real problems.
+          On the data side, I work regularly with Python for analysis: pandas,
+          NumPy, and matplotlib for cleaning, exploring, and visualizing data.
+          I&apos;m currently looking for entry-level opportunities, either as
+          an AI/ML engineer or a data analyst, where I can keep building and
+          learning on real problems.
         </p>
   
         <div className="mt-8 flex flex-wrap justify-center gap-3">
@@ -43,7 +46,8 @@ const focusAreas = [
           <p className="font-mono text-xs tracking-widest text-muted uppercase">
             Education
           </p>
-          <p className="mt-2 text-sm text-muted">
+          <p className="mt-2 text-sm text-muted">BSc in Computer Science</p>
+          <p className="mt-1 text-sm text-muted">
             MSc in Artificial Intelligence
           </p>
         </div>
