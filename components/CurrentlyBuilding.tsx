@@ -41,7 +41,7 @@ type BuildCardProps = {
         <div className="mt-10 grid gap-6 sm:grid-cols-2">
           <BuildCard
             title="AI Tutor with a custom 2D rendering engine"
-            description="Most of what I know about complex architectures, I learned by pushing ChatGPT and Claude to explain them  but chat alone can't build visual intuition. I'm building a tutor that teaches concepts one step at a time through a custom 2D rendering engine, so ideas that are usually just described get shown."
+            description="I learned complex architectures by implementing them from scratch and pushing AI tools to explain the hard parts but chat alone can't build visual intuition. So I'm building a tutor that shows concepts through a custom 2D rendering engine."
             tags={["Python", "Custom 2D Engine", "LLMs"]}
           />
           <BuildCard
