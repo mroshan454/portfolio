@@ -34,7 +34,7 @@ type BuildCardProps = {
         </h2>
         <p className="mt-4 max-w-2xl text-muted">
           I&apos;ve spent the last stretch shipping projects across NLP,
-          computer vision, and applied ML you can see those below. Right now
+          computer vision, and applied ML. Right now
           I&apos;m pointed at two harder problems.
         </p>
   
