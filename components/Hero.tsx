@@ -64,11 +64,6 @@ export default function Hero() {
   </text>
 </svg>
 
-      <p className="mb-4 font-mono text-sm text-accent-blue">
-        &gt; whoami
-        <span className="ml-1 inline-block h-4 w-2 animate-pulse bg-accent-blue align-middle" />
-      </p>
-
       <h1 className="font-[family-name:var(--font-display)] text-5xl font-bold tracking-tight sm:text-6xl">
         Roshan Mohammed
       </h1>
