@@ -52,6 +52,7 @@ export type Project = {
       description:
         "A from-scratch replication of the Vision Transformer (ViT) paper: patch embeddings, positional encoding, and the transformer encoder, classifying images with no convolutions at all.",
       tags: ["PyTorch", "Vision Transformer", "Research"],
+      image:"/projects/vit.jpeg",
       githubUrl: "https://github.com/mroshan454/Replicating-ViT-Research-Paper",
     },
   ];
