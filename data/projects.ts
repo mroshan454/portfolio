@@ -43,7 +43,7 @@ export type Project = {
       description:
         "A multimodal image captioning model pairing an EfficientNetB0 encoder with a Transformer decoder. Upload an image and it generates a natural language caption.",
       tags: ["PyTorch", "EfficientNet", "Transformers"],
-      image:"/projects/crosssight.png"
+      image:"/projects/crosssight.png",
       githubUrl: "https://github.com/mroshan454/CrossSight_Image_Captioning",
     },
     {
