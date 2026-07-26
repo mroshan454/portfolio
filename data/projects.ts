@@ -15,6 +15,7 @@ export type Project = {
       description:
         "Upload a PDF and chat with it directly. Ask questions and get answers grounded in the document's actual content.",
       tags: ["Python", "LLMs", "RAG"],
+      image: "/projects/documind.png",
       liveUrl: "https://documind-bsa2.onrender.com/ui/",
       githubUrl: "https://github.com/mroshan454/documind",
     },
@@ -24,6 +25,7 @@ export type Project = {
       description:
         "A GPT-style language model built end to end from scratch: tokenizer, attention, and training loop. It learns to predict the next token, so feeding it 'I love' produces a continuation like 'I love Machine Learning.'",
       tags: ["PyTorch", "Transformers", "NLP"],
+      image:"/projects/gpt.png",
       githubUrl: "https://github.com/mroshan454/GPT-From-Scratch-PyTorch-",
     },
     {
@@ -32,6 +34,7 @@ export type Project = {
       description:
         "Fine-tuned EfficientNetB2 on the PlantVillage dataset to classify 39 categories: 38 plant disease classes plus a dedicated class for images that aren't leaves at all.",
       tags: ["PyTorch", "EfficientNet", "Computer Vision"],
+      image:"/projects/plantnet39.png",
       githubUrl: "https://github.com/mroshan454/PlantNet39",
     },
     {
