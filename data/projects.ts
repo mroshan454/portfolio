@@ -25,7 +25,7 @@ export type Project = {
       description:
         "A GPT-style language model built end to end from scratch: tokenizer, attention, and training loop. It learns to predict the next token, so feeding it 'I love' produces a continuation like 'I love Machine Learning.'",
       tags: ["PyTorch", "Transformers", "NLP"],
-      image:"/projects/gpt.png",
+      image:"/projects/gpt1.png",
       githubUrl: "https://github.com/mroshan454/GPT-From-Scratch-PyTorch-",
     },
     {
