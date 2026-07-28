@@ -1,10 +1,8 @@
 import { Project } from "@/data/projects";
 
 export default function ProjectCard({ project }: { project: Project }) {
-  const href = project.liveUrl ?? project.githubUrl;
-
-  const cardContent = (
-    <>
+  return (
+    <div className="group rounded-lg border border-border bg-surface p-5 transition hover:border-accent-blue">
       <div className="aspect-video w-full overflow-hidden rounded-md border border-border bg-background">
         {project.image ? (
           <img
@@ -22,7 +20,10 @@ export default function ProjectCard({ project }: { project: Project }) {
       <h3 className="mt-4 font-[family-name:var(--font-display)] text-xl font-semibold">
         {project.title}
       </h3>
-      <p className="mt-2 text-sm text-muted">{project.description}</p>
+
+      <p className="mt-2 text-sm text-muted">
+        {project.description}
+      </p>
 
       <div className="mt-4 flex flex-wrap gap-2">
         {project.tags.map((tag) => (
@@ -34,25 +35,31 @@ export default function ProjectCard({ project }: { project: Project }) {
           </span>
         ))}
       </div>
-    </>
-  );
 
-  if (href) {
-    return (
-      
-       <a  href={href}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="group block rounded-lg border border-border bg-surface p-5 transition hover:border-accent-blue"
-      >
-        {cardContent}
-      </a>
-    );
-  }
+      {/* Buttons */}
+      <div className="mt-6 flex gap-3">
+        {project.liveUrl && (
+          <a
+            href={project.liveUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-md bg-accent-blue px-4 py-2 text-sm font-medium text-white transition hover:opacity-90"
+          >
+            Live Demo
+          </a>
+        )}
 
-  return (
-    <div className="rounded-lg border border-border bg-surface p-5">
-      {cardContent}
+        {project.githubUrl && (
+          <a
+            href={project.githubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-md border border-border px-4 py-2 text-sm font-medium transition hover:bg-background"
+          >
+            GitHub
+          </a>
+        )}
+      </div>
     </div>
   );
 }
