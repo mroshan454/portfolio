@@ -35,6 +35,7 @@ export type Project = {
         "Fine-tuned EfficientNetB2 on the PlantVillage dataset to classify 39 categories: 38 plant disease classes plus a dedicated class for images that aren't leaves at all.",
       tags: ["PyTorch", "EfficientNet", "Computer Vision"],
       image:"/projects/plantnet39.png",
+      liveUrl:"https://huggingface.co/spaces/roshan454/PlantNet39",
       githubUrl: "https://github.com/mroshan454/PlantNet39",
     },
     {
@@ -44,6 +45,7 @@ export type Project = {
         "A multimodal image captioning model pairing an EfficientNetB0 encoder with a Transformer decoder. Upload an image and it generates a natural language caption.",
       tags: ["PyTorch", "EfficientNet", "Transformers"],
       image:"/projects/crosssight.png",
+      liveUrl:"https://huggingface.co/spaces/roshan454/CrossSight",
       githubUrl: "https://github.com/mroshan454/CrossSight_Image_Captioning",
     },
     {
